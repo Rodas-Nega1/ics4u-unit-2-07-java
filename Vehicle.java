@@ -118,4 +118,13 @@ public class Vehicle {
             this.speed = 0;
         }
     }
+
+    /**
+     * This is the status method.
+    */
+    public void status() {
+        System.out.println(" ---> Speed: " + this.getSpeed());
+        System.out.println(" ---> MaxSpeed: " + this.getMaxSpeed());
+        System.out.println(" ---> Color: " + this.getColor());
+    }
 }

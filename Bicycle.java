@@ -57,9 +57,7 @@ public class Bicycle extends Vehicle {
      * This is the status function.
      */
     public void status() {
-        System.out.println(" ---> Speed: " + super.getSpeed());
-        System.out.println(" ---> MaxSpeed: " + super.getMaxSpeed());
-        System.out.println(" ---> Color: " + super.getColor());
+        super.status();
         System.out.println(" ---> Cadence: " + this.getCadence());
     }
 }
